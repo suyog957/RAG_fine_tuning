@@ -1,0 +1,21 @@
+# Core
+streamlit>=1.33
+torch>=2.1
+transformers>=4.39
+sentence-transformers>=2.5
+peft>=0.10.0
+accelerate>=0.29.0
+
+# LangChain + vector store
+langchain>=0.2
+langchain-community>=0.2
+langchain-huggingface>=0.0.3
+faiss-cpu>=1.8
+
+# PDF & utils
+PyPDF2>=3.0
+python-dotenv>=1.0
+
+# Optional OCR
+pdf2image>=1.17
+pytesseract>=0.3.10
